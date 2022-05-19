@@ -25,7 +25,7 @@ module.exports.run = async (client, message, args) => {
                 .setThumbnail(process.env.LOGO)
                 .setImage(process.env.BANNER)
                 .setTimestamp()
-                .setFooter("Join Optus Roleplay")
+                .setFooter("Join Centraal Roleplay")
         
             const row = new discord.MessageActionRow().addComponents(
         
@@ -33,7 +33,7 @@ module.exports.run = async (client, message, args) => {
                     .setLabel("Join Gelijk")
                     .setStyle("LINK")
                     .setEmoji("🎮")
-                    .setURL("https://cfx.re/join/lxz7q4")
+                    .setURL("https://cfx.re/join/4xjqk5")
         
             );
 
@@ -53,7 +53,7 @@ module.exports.run = async (client, message, args) => {
         .setThumbnail(process.env.LOGO)
         .setImage(process.env.BANNER)
         .setTimestamp()
-        .setFooter("Join Optus Roleplay")
+        .setFooter("Join Centraal Roleplay")
 
     const row = new discord.MessageActionRow().addComponents(
 
@@ -61,7 +61,7 @@ module.exports.run = async (client, message, args) => {
             .setLabel("Join Gelijk")
             .setStyle("LINK")
             .setEmoji("🎮")
-            .setURL("https://cfx.re/join/lxz7q4")
+            .setURL("https://cfx.re/join/4xjqk5")
 
     );
 
