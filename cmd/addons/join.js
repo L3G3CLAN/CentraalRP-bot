@@ -33,7 +33,7 @@ module.exports.run = async (client, message, args) => {
                     .setLabel("Join Gelijk")
                     .setStyle("LINK")
                     .setEmoji("🎮")
-                    .setURL("https://cfx.re/join/x47ege")
+                    .setURL("fivem://cfx.re/join/x47ege")
         
             );
 
@@ -61,7 +61,7 @@ module.exports.run = async (client, message, args) => {
             .setLabel("Join Gelijk")
             .setStyle("LINK")
             .setEmoji("🎮")
-            .setURL("https://cfx.re/join/x47ege")
+            .setURL("fivem://cfx.re/join/x47ege")
 
     );
 
