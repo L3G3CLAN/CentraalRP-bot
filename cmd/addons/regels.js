@@ -3,13 +3,13 @@ const discord = require("discord.js");
 module.exports.run = async (client, message, args) => {
 
     var botEmbed = new discord.MessageEmbed()
-        .setTitle("Regels Optus Roleplay")
-        .setDescription("Optus Roleplay heeft ook een aantal regels. \n Dit is belangrijk om jou RP ervaring hoog te houden. \n De regels vindje door hier onder op de knop te klicken.")
+        .setTitle("Regels Centraal Roleplay")
+        .setDescription("Centraal Roleplay heeft ook een aantal regels. \n Dit is belangrijk om jou RP ervaring hoog te houden. \n De regels vindje door hier onder op de knop te klicken.")
         .setColor(process.env.COLLOR)
         .setThumbnail(process.env.LOGO)
 //        .setImage(process.env.BANNER)
         .setTimestamp()
-        .setFooter("Regels Optus Roleplay")
+        .setFooter("Regels Centraal Roleplay")
         
         const row = new discord.MessageActionRow().addComponents(
 
@@ -17,7 +17,7 @@ module.exports.run = async (client, message, args) => {
             .setLabel("Regels")
             .setStyle("LINK")
             .setEmoji("⚠️")
-            .setURL("https://optusrp.nl/rules")
+            .setURL("https://centraalrp.nl/rules")
     
         );
 
